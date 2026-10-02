@@ -7,7 +7,7 @@ MojoLauncher это лаунчер, основанный на [PojavLauncher](ht
 - [Дискорд сервер](https://discord.gg/pojavlauncher-sng-962263126647144449)
 - [Телеграм канал](https://t.me/mojolauncher)
 - [Телеграм группа](https://t.me/mojolauncher_chat)
-- [Моджо в Google Play](https://play.google.com/store/apps/details?id=git.artdeell.mojo)
+- [Моджо в Google Play](https://play.google.com/store/apps/details?id=git.artdeell.mjlaunch)
 - [MJLauncher?](https://t.me/MJLauncher)
 
 ## Оглавление
