@@ -1,7 +1,7 @@
 # MojoTutorials
 > _Официальная статья_
 
-MojoLauncher это Лаунчер, основанный на [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher), позволяющий играть в Minecraft: Java Edition на устройствах Android!\
+MojoLauncher это лаунчер, основанный на [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher), позволяющий играть в Minecraft: Java Edition на устройствах Android!  
 На этой странице вы найдёте различные руководства, которые помогут вам с удовольствием играть в Minecraft через Mojo
 - [Гитхаб моджо](https://github.com/MojoLauncher)
 - [Дискорд сервер](https://discord.gg/pojavlauncher-sng-962263126647144449)
@@ -9,14 +9,16 @@ MojoLauncher это Лаунчер, основанный на [PojavLauncher](ht
 - [Телеграм группа](https://t.me/mojolauncher_chat)
 - [Моджо в Google Play](https://play.google.com/store/apps/details?id=git.artdeell.mojo)
 - [MJLauncher?](https://t.me/MJLauncher)
+
 ## Оглавление
 1. [Как ставить моды?](#1-как-ставить-моды) (а так же "[Зависимости модов](#зависимости-модов)", "[Как определить нужный инстанс?](#как-определить-нужный-инстанс)" и "[Что такое latestlog.txt?](#что-такое-latestlogtxt-и-где-мне-его-найти)")
-2. Как ставить ресурс паки?
-3. Как поставить карту/мир?
-4. Как ставить шейдеры?
-5. Как поставить плагин Angle?
-6. Как поставить скин?
+2. [Как ставить ресурс паки?](#2-как-ставить-ресурс-паки)
+3. [Как поставить карту/мир?](#3-как-поставить-картумир)
+4. [Как ставить шейдеры?](#4-как-ставить-шейдеры)
+5. [Как поставить плагин Angle?](#5-как-поставить-плагин-angle)
+6. [Как поставить скин?](#6-как-поставить-скин)
 7. Как поставить сборку?
+
 ## 1. Как ставить моды?
 Создайте новый профиль с нужной версией и загрузчиком модов. __Запустите его__. Это нужно для того, чтобы нужные папки сами создались  
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4c6fa181-20bb-4fc4-aa56-665c26c3f26b" />  
@@ -42,7 +44,7 @@ MojoLauncher это Лаунчер, основанный на [PojavLauncher](ht
 «instances»  
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/65c7850c-27c3-4b40-9a37-d039db276627" />  
 
-Выбираете вашу версию (Как определить нужный инстанс?)  
+Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс))  
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/6cfd2640-065b-42d7-8b55-527a7579552b" />  
 
 «mods» (папка появляется при первом запуске игры)  
@@ -51,15 +53,17 @@ MojoLauncher это Лаунчер, основанный на [PojavLauncher](ht
 Нажимаете «Копировать»  
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/92b2a494-7bab-471e-8ba2-6c370e067a37" />  
 
-Если вы используете Fabric, то рекомендуется скачать [Mod Menu](https://modrinth.com/mod/modmenu) для меню модов
-## Зависимости модов
-Зависимости модов - это необходимые для работы модов файлы (обычно другие моды-библиотеки), без которых основной мод либо не запустится, либо будет работать некорректно\
-Часто, именно недокачанные зависимости становятся причиной краша и ошибок игры. Основные способы их обнаружить на примере мода Veinminer:
-1. Описание модов
+> Если вы используете Fabric, то рекомендуется скачать [Mod Menu](https://modrinth.com/mod/modmenu) для меню модов
 
+## Зависимости модов
+Зависимости модов - это необходимые для работы модов файлы (обычно другие моды-библиотеки), без которых основной мод либо не запустится, либо будет работать некорректно  
+Часто, именно недокачанные зависимости становятся причиной краша и ошибок игры. Основные способы их обнаружить на примере мода Veinminer:  
+
+__Описание модов__  
 Обычно в описании мода указаны все требования для его работы, поэтому старайтесь всегда читать его перед установкой.  
-<img width="250" alt="image" src="https://github.com/user-attachments/assets/12bffe4a-b9f1-4d41-bfde-54cba179ab23" />  
- 2. latestlog.txt  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/12bffe4a-b9f1-4d41-bfde-54cba179ab23" />   
+
+__latestlog.txt__  
 После неудачного запуска Майнкрафта откройте latestlog.txt ([Где найти latestlog?](#что-такое-latestlogtxt-и-где-мне-его-найти)). Найдите строки:
 ```
 A potential solution has been determined, this may resolve your problem:
@@ -76,7 +80,8 @@ More details:
 ```
 - __Veinminer__ - основной мод
 - __silk-core__ - зависимость к основному моду
-3. Другие способы обнаружения  
+
+__Другие способы обнаружения__  
 На Модринте рядом с кнопкой «Download» будет ещё одна кнопка. Нажмите на неё и пролистайте немного вниз. Там и будут зависимости  
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/83e4c081-947f-4245-bc31-320dbc181a5b" />
 
@@ -128,6 +133,171 @@ __Latestlog.txt__ - журнал, записывающий историю зап
 
 Поздравляю! Вы поставили мод.
 > _[Вернуться к оглавлению](#оглавление)_
+
+## 2. Как ставить ресурс паки?
+Скачайте нужный ресурс пак. Разные версии ресурс пака и Майнкрафта не всегда приводят к ошибкам, но рекомендуется чтобы они совпадали  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/ad4082aa-a0f1-4849-a6f8-f3686c7cafba" />  
+
+Зайдите в лаунчер и откройте папку игры через встроенный проводник  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/a94125f0-484f-4474-a978-4fa7a2a74db4" />  
+
+В загрузках будет ваш ресурс пак (чтобы перейти в загрузки нажмите на три полоски сверху-слева и «Загрузки»). Выделите его и нажмите на три точки сверху-справа. Нажмите «Копировать в...»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/55be49bd-58f0-42bf-80e3-cc698adc558d" />  
+
+Нажмите на три полоски вверху-слева и выберите MojoLauncher (либо путь Android/data/git.artdeell.mojo/files)  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/b26b5a93-fbb6-4768-88d8-28e874c35551" />  
+
+«instances»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/471f806c-90fe-418c-a194-486b8c75aaec" />  
+
+Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс))  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/099d1c5a-bc1c-4c58-a64b-11144579493c" />  
+
+«resourcepacks» (папка появляется при первом запуске игры)  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/b6908f06-a663-47bf-97e3-5ba69d0f7520" />  
+
+Нажимаете «Копировать»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/38d3cb66-3859-40e9-8e43-e61446fed2ba" />  
+
+Поздравляю! Вы поставили ресурс пак.
+> _[Вернуться к оглавлению](#оглавление)_
+
+## 3. Как поставить карту/мир?
+Скачайте нужную карту. Зайдите в Лаунчер и откройте папку игры через встроенный проводник  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/22bb87b9-346a-4449-883f-06c713daacbc" />  
+
+В загрузках будет ваша карта (чтобы перейти в загрузки нажмите на три полоски сверху-слева и «Загрузки»). Она будет сжата в .zip, .rar или другой архив. Нажмите на него  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/34095c28-8a7c-4606-ab6d-ba50ab63c586" />  
+
+Выделите содержимое, нажмите на три точки сверху-справа и «Извлечь»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/f16f3752-f22b-4f74-bf54-757c32e8d54b" />  
+
+Нажмите на три полоски вверху-слева и выберите MojoLauncher (либо путь Android/data/git.artdeell.mojo/files)  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/6f7106a8-9b5f-43e5-9e7f-fb2e3c1632ea" />  
+
+«instances»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/80b9a375-f9e6-45a0-9835-4afd5885fe56" />  
+
+Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс))  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/53e3c1ba-ca8f-445b-b8a6-95ba5d438222" />  
+
+«saves» (папка появляется при первом запуске игры)  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/42eec98f-a5ad-42ca-bffc-4288982483e9" />  
+
+Нажимаете «Извлечь»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/17cf3df3-6c86-49a9-b189-e1672c06ca2b" />  
+
+> Если ваша версия игры новее, чем та, на которой создана карта, то, как правило, проблем не возникает. Однако при запуске карты в более старой версии игры возможны ошибки
+
+Поздравляю! Вы поставили карту.
+> _[Вернуться к оглавлению](#оглавление)_
+
+## 4. Как ставить шейдеры?
+Для начала убедитесь, что у вас скачана последняя версия Mojo. Далее, перед установкой шейдера необходимо скачать мод, который обеспечивает его работу:  
+Для __Fabric__ - это __Iris__ (не забудьте Sodium).  
+Для __Forge__ - это __OptiFine__ или __Oculus__ (для второго не забудьте Embedium).  
+> Знайте, что работа шейдеров сильно зависит от вашего устройства, поскольку они разрабатываются преимущественно под архитектуру процессоров и видеокарт пк. Из-за этого шейдеры могут работать нестабильно или вовсе не запускаться - и помогать с их запуском вам мало кто будет.
+
+Скачайте нужный шейдер  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/d47e8698-ffd6-4a03-a8d1-a426690e516a" />  
+
+Зайдите в Лаунчер и откройте папку игры через встроенный проводник  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/f863f77b-a222-4f56-971a-6225b1a5088d" />  
+
+В загрузках будет ваш шейдер (чтобы перейти в загрузки нажмите на три полоски сверху-слева и «Загрузки»). Выделите его и нажмите на три точки сверху-справа. Нажмите «Копировать в...»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/868f8938-d4ae-48b3-a475-41368ea0c2f2" />  
+
+Нажмите на три полоски вверху-слева и выберите MojoLauncher (либо путь Android/data/git.artdeell.mojo/files)  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/69d8a009-7d26-411b-a897-4ec0638d807f" />  
+
+«instances»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/cfceec00-62f3-43b2-8a6f-9269ef154d61" />  
+
+Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс))  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/1fab903a-4f31-44eb-bdc0-27e18290d1be" />  
+
+«shaderpacks» (папка появляется при первом запуске игры с модом Iris/Oculus/Optifine)  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/7a4eba50-bc9b-40d9-a45f-4da30bcbae3c" />  
+
+Нажимаете «Копировать»  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/70b11743-9069-4c8a-b171-c6682ef2755d" />  
+
+Поздравляю! Вы поставили шейдеры.
+> _[Вернуться к оглавлению](#оглавление)_
+
+## 5. Как поставить плагин Angle?
+Angle плагин для LTW в Mojo. Полезен на кривых gles драйверах  
+
+Скачайте [плагин](https://github.com/MojoLauncher/AnglePlugin/releases/download/) из официального гитхаба  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/7f7c16a9-7957-44fc-b380-b9c7915d6f7d" />  
+
+Иногда может вылезти окно оповещения безопасности Google Play. Нажмите «Подробнее» и «Всё равно установить»  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/bf7a8a6e-d1fd-4aec-ac6a-145efc538cff" />  
+
+После установки самого плагина зайдите в Моджо и в настройки  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/a86f27d2-1303-483d-b0a1-7a47c86ddeb4" />  
+
+«Настройки графики» и включаете «Использовать ANGLE»  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/dd98c087-ecef-41f3-bfc4-1eb5264ae5ff" />  
+
+Поздравляю! Вы поставили Angle плагин.
+> _[Вернуться к оглавлению](#оглавление)_
+
+## 6. Как поставить скин?
+1. [Если есть лицензия](#если-куплена-лицензия)
+2. [Если нет лицензии](#если-лицензии-нет)
+
+### Если куплена лицензия:
+Зайдите на [официальный сайт Майнкрафта](http://minecraft.net/)
+
+Войдите в свой аккаунт Майкрософт, на котором куплена игра  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/09849866-99b3-4ab4-82ec-6befe5fbb11b" />  
+
+Загрузите свой скин  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/ef7db12a-f79a-4d21-9640-a7d11042c9df" />    
+
+Зайдите в Майкрософт аккаунт через Моджо  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/3112775e-223e-44bd-a545-47ccd534c2cb" />  
+
+### Если лицензии нет:
+Зайдите на сайт [Ely.by](http://ely.by/)  
+
+Выберите «К авторизации», если у вас уже есть аккаунт. Выберите «Регистрация», если впервые зашли на сайт  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/28aa9d63-0c48-4147-9483-2ca02695c276" />  
+
+Когда зашли или создали свой аккаунт в меню выберите «Скины»  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/de759e88-ed47-4369-b3ce-1aba38069762" />  
+
+Выбираете скин из уже существующих на сайте или загружаете свой  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/415980da-980a-4056-a6dd-b205c8705a5d" />  
+
+Зайдите в аккаунт через Моджо  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/12d3abe9-817f-44c9-88f9-ed90310cb141" />  
+
+> Важно отметить, что если сервер, на котором вы играете, не поддерживает скины ely by, то отображаться он не будет
+
+Поздравляю! Вы поставили скин.
+> _[Вернуться к оглавлению](#оглавление)_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
