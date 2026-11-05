@@ -1,69 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>MojoTutorials</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="icon.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-  <style>
-    :root {
-      --base-background-color: #121212;
-      --theme-color: #3b82f6;
-      --blockquote-background: transparent;
-      --blockquote-border-color: #30363d;
-      --blockquote-padding: 0 1em;
-      --blockquote-color: #8b949e;
-    }
-    .sidebar, .sidebar-toggle {
-      display: none !important;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>MojoTutorials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <style>
+    :root {
+      --base-background-color: #121212;
+      --theme-color: #3b82f6;
+      --blockquote-background: transparent;
+      --blockquote-border-color: #30363d;
+      --blockquote-padding: 0 1em;
+      --blockquote-color: #8b949e;
+    }
+    .sidebar, .sidebar-toggle {
+      display: none !important;
+    }
+  </style>
 </head>
 <body>
-  <div id="app">Sheesh...</div>
-  <script>
-    window.$docsify = {
-      name: 'MojoTutorials',
-      hideSidebar: true,
-      auto2top: true,
-      plugins: [
-        function(hook) {
-          hook.doneEach(function() {
-            document.querySelectorAll('.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4').forEach(function(h) {
-              var slug = h.textContent
-                .trim()
-                .toLowerCase()
-                .replace(/[^\w\u0400-\u04FF\s-]/g, '')
-                .replace(/\s+/g, '-')
-                .replace(/^_+/, '');
-              h.id = slug;
-            });
-
-            document.querySelectorAll('.markdown-section a').forEach(function(a) {
-              var href = a.getAttribute('href') || '';
-              if (href.indexOf('?id=') !== -1 || href.charAt(0) === '#') {
-                var rawId = href.indexOf('?id=') !== -1 ? href.split('?id=')[1] : href.slice(1);
-                if (!rawId || rawId.charAt(0) === '/') return;
-                var id = decodeURIComponent(rawId)
-                  .toLowerCase()
-                  .replace(/^_+/, '');
-                a.setAttribute('href', '#/?id=' + id);
-                a.addEventListener('click', function(e) {
-                  var target = document.getElementById(id);
-                  if (target) {
-                    e.preventDefault();
-                    target.scrollIntoView({ behavior: 'smooth' });
-                  }
-                });
-              }
-            });
-          });
-        }
-      ]
-    }
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <div id="app">Sheesh...</div>
+  <script>
+    window.$docsify = {
+      name: 'MojoTutorials',
+      hideSidebar: true,
+      auto2top: true
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>
