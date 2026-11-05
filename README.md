@@ -74,7 +74,7 @@ MojoLauncher — это лаунчер, основанный на [PojavLauncher
 __Описание модов__  
 Обычно в описании мода указаны все требования для его работы, поэтому старайтесь всегда читать его перед установкой.
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/12bffe4a-b9f1-4d41-bfde-54cba179ab23](https://github.com/user-attachments/assets/12bffe4a-b9f1-4d41-bfde-54cba179ab23)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/12bffe4a-b9f1-4d41-bfde-54cba179ab23" />
 
 __latestlog.txt__  
 После неудачного запуска Майнкрафта откройте latestlog.txt ([Где найти latestlog?](#что-такое-latestlogtxt-и-где-мне-его-найти)). Найдите строки:
@@ -99,11 +99,11 @@ More details:
 __Другие способы обнаружения__  
 На Модринте рядом с кнопкой «Download» будет ещё одна кнопка. Нажмите на неё и пролистайте немного вниз. Там и будут зависимости
 
-<img width="500" alt="image" src="[https://github.com/user-attachments/assets/83e4c081-947f-4245-bc31-320dbc181a5b](https://github.com/user-attachments/assets/83e4c081-947f-4245-bc31-320dbc181a5b)" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/83e4c081-947f-4245-bc31-320dbc181a5b" />
 
 На КурсФордже нажмите на файл и пролистайте вниз. Нажмите на «Related Projects». Там и будут зависимости
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/b03a9b0d-67fc-414d-bd80-e3d0744b7ab7](https://github.com/user-attachments/assets/b03a9b0d-67fc-414d-bd80-e3d0744b7ab7)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/b03a9b0d-67fc-414d-bd80-e3d0744b7ab7" />
 
 ## Как определить нужный инстанс?
 1. [Если у вас Forge](#если-у-вас-forge)
@@ -188,15 +188,15 @@ __latestlog.txt__ — журнал, записывающий историю за
 
 Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс))
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/099d1c5a-bc1c-4c58-a64b-11144579493c](https://github.com/user-attachments/assets/099d1c5a-bc1c-4c58-a64b-11144579493c)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/099d1c5a-bc1c-4c58-a64b-11144579493c" />
 
 «resourcepacks» (папка появляется при первом запуске игры)
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/b6908f06-a663-47bf-97e3-5ba69d0f7520](https://github.com/user-attachments/assets/b6908f06-a663-47bf-97e3-5ba69d0f7520)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/b6908f06-a663-47bf-97e3-5ba69d0f7520" />
 
 Нажимаете «Копировать»
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/38d3cb66-3859-40e9-8e43-e61446fed2ba](https://github.com/user-attachments/assets/38d3cb66-3859-40e9-8e43-e61446fed2ba)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/38d3cb66-3859-40e9-8e43-e61446fed2ba" />
 
 Поздравляю! Вы поставили ресурс пак.
 > _[Вернуться к оглавлению](#оглавление)_
@@ -248,23 +248,23 @@ __latestlog.txt__ — журнал, записывающий историю за
 
 Скачайте нужный шейдер
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/d47e8698-ffd6-4a03-a8d1-a426690e516a](https://github.com/user-attachments/assets/d47e8698-ffd6-4a03-a8d1-a426690e516a)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/d47e8698-ffd6-4a03-a8d1-a426690e516a" />
 
 Зайдите в Лаунчер и откройте папку игры через встроенный проводник
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/f863f77b-a222-4f56-971a-6225b1a5088d](https://github.com/user-attachments/assets/f863f77b-a222-4f56-971a-6225b1a5088d)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/f863f77b-a222-4f56-971a-6225b1a5088d" />
 
 В загрузках будет ваш шейдер (чтобы перейти в загрузки: нажмите на три полоски сверху-слева и «Загрузки»). Выделите его и нажмите на три точки сверху-справа. Нажмите «Копировать в...»
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/868f8938-d4ae-48b3-a475-41368ea0c2f2](https://github.com/user-attachments/assets/868f8938-d4ae-48b3-a475-41368ea0c2f2)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/868f8938-d4ae-48b3-a475-41368ea0c2f2" />
 
 Нажмите на три полоски вверху-слева и выберите MojoLauncher (либо путь Android/data/git.artdeell.mojo/files)
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/69d8a009-7d26-411b-a897-4ec0638d807f](https://github.com/user-attachments/assets/69d8a009-7d26-411b-a897-4ec0638d807f)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/69d8a009-7d26-411b-a897-4ec0638d807f" />
 
 «instances»
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/cfceec00-62f3-43b2-8a6f-9269ef154d61](https://github.com/user-attachments/assets/cfceec00-62f3-43b2-8a6f-9269ef154d61)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/cfceec00-62f3-43b2-8a6f-9269ef154d61" />
 
 Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс))
 
@@ -286,19 +286,19 @@ Angle плагин для LTW в Mojo. Полезен на кривых GLES д�
 
 Скачайте [плагин](https://github.com/MojoLauncher/AnglePlugin/releases/download/) из официального гитхаба
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/7f7c16a9-7957-44fc-b380-b9c7915d6f7d](https://github.com/user-attachments/assets/7f7c16a9-7957-44fc-b380-b9c7915d6f7d)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/7f7c16a9-7957-44fc-b380-b9c7915d6f7d" />
 
 Иногда может вылезти окно оповещения безопасности Google Play. Нажмите «Подробнее» и «Всё равно установить»
 
-<img width="500" alt="image" src="[https://github.com/user-attachments/assets/bf7a8a6e-d1fd-4aec-ac6a-145efc538cff](https://github.com/user-attachments/assets/bf7a8a6e-d1fd-4aec-ac6a-145efc538cff)" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/bf7a8a6e-d1fd-4aec-ac6a-145efc538cff" />
 
 После установки самого плагина зайдите в Моджо и в настройки
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/a86f27d2-1303-483d-b0a1-7a47c86ddeb4](https://github.com/user-attachments/assets/a86f27d2-1303-483d-b0a1-7a47c86ddeb4)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/a86f27d2-1303-483d-b0a1-7a47c86ddeb4" />
 
 «Настройки графики» и включаете «Использовать ANGLE»
 
-<img width="500" alt="image" src="[https://github.com/user-attachments/assets/dd98c087-ecef-41f3-bfc4-1eb5264ae5ff](https://github.com/user-attachments/assets/dd98c087-ecef-41f3-bfc4-1eb5264ae5ff)" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/dd98c087-ecef-41f3-bfc4-1eb5264ae5ff" />
 
 Поздравляю! Вы поставили Angle плагин.
 > _[Вернуться к оглавлению](#оглавление)_
@@ -391,11 +391,11 @@ Angle плагин для LTW в Mojo. Полезен на кривых GLES д�
 
 Выбираете вашу версию ([Как определить нужный инстанс?](#как-определить-нужный-инстанс)). Убедитесь, что версия и загрузчик модов сборки совпадают с вашей запускаемой версией
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/3a3592ea-029b-4155-ab4b-add9656805ca](https://github.com/user-attachments/assets/3a3592ea-029b-4155-ab4b-add9656805ca)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/3a3592ea-029b-4155-ab4b-add9656805ca" />
 
 Если в вашей версии уже есть папки, то их надо удалить. «Извлечь»
 
-<img width="250" alt="image" src="[https://github.com/user-attachments/assets/164f3f1f-2e9e-4952-971e-f69bce5adf37](https://github.com/user-attachments/assets/164f3f1f-2e9e-4952-971e-f69bce5adf37)" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/164f3f1f-2e9e-4952-971e-f69bce5adf37" />
 
 Поздравляю! Вы поставили сборку.
 > _[Вернуться к оглавлению](#оглавление)_
