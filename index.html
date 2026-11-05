@@ -26,7 +26,41 @@
     window.$docsify = {
       name: 'MojoTutorials',
       hideSidebar: true,
-      auto2top: true
+      auto2top: true,
+      plugins: [
+        function(hook) {
+          hook.doneEach(function() {
+            document.querySelectorAll('.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4').forEach(function(h) {
+              var slug = h.textContent
+                .trim()
+                .toLowerCase()
+                .replace(/[^\w\u0400-\u04FF\s-]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/^_+/, '');
+              h.id = slug;
+            });
+
+            document.querySelectorAll('.markdown-section a').forEach(function(a) {
+              var href = a.getAttribute('href') || '';
+              if (href.indexOf('?id=') !== -1 || href.charAt(0) === '#') {
+                var rawId = href.indexOf('?id=') !== -1 ? href.split('?id=')[1] : href.slice(1);
+                if (!rawId || rawId.charAt(0) === '/') return;
+                var id = decodeURIComponent(rawId)
+                  .toLowerCase()
+                  .replace(/^_+/, '');
+                a.setAttribute('href', '#/?id=' + id);
+                a.addEventListener('click', function(e) {
+                  var target = document.getElementById(id);
+                  if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                  }
+                });
+              }
+            });
+          });
+        }
+      ]
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
