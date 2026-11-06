@@ -38,22 +38,6 @@
         height: auto;
       }
     }
-    .to-top {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #3b82f6;
-      color: #fff;
-      padding: 10px 14px;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      z-index: 999;
-      font-size: 16px;
-      line-height: 1;
-      transition: background 0.2s;
-    }
     .to-top:hover {
       background: #2563eb;
     }
@@ -61,7 +45,6 @@
 </head>
 <body>
   <div id="app"></div>
-  <div class="to-top" id="backToTop" title="Наверх">↑</div>
   <script>
     window.$docsify = {
       name: 'MojoTutorials',
@@ -102,21 +85,5 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <script>
-    window.addEventListener('scroll', function() {
-      const btn = document.getElementById('backToTop');
-      if (window.scrollY > 300) {
-        btn.style.display = 'block';
-      } else {
-        btn.style.display = 'none';
-      }
-    });
-    document.getElementById('backToTop').addEventListener('click', function() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  </script>
 </body>
 </html>
