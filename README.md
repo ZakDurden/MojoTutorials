@@ -29,6 +29,7 @@ MojoLauncher это лаунчер, основанный на [PojavLauncher](ht
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/d8f66df3-100c-472f-8419-7fa371ef5a78" />  
 
 Убедитесь, что версия Майнкрафта с загрузчиком модов, которые вы запускаете, совпадают с модом  
+
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/411b15e2-1901-4244-9fcf-e4f17473eea3" />  
 
 Зайдите в лаунчер и откройте папку игры через встроенный проводник  
