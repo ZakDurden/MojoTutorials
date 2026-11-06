@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>MojoTutorials</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="icon.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <meta charset="UTF-8">
+  <title>MojoTutorials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <style>
-    :root {
-      --base-background-color: #121212;
-      --theme-color: #3b82f6;
-      --blockquote-background: transparent;
-      --blockquote-border-color: #30363d;
-      --blockquote-padding: 0 1em;
-      --blockquote-color: #8b949e;
-    }
-    .sidebar, .sidebar-toggle {
-      display: none !important;
-    }
-  </style>
+    :root {
+      --base-background-color: #121212;
+      --theme-color: #3b82f6;
+      --content-max-width: 100%;
+      --blockquote-background: transparent;
+      --blockquote-border-color: #30363d;
+      --blockquote-padding: 0 1em;
+      --blockquote-color: #8b949e;
+    }
+    .sidebar, .sidebar-toggle {
+      display: none !important;
+    }
+    .content {
+      left: 0 !important;
+    }
+    .markdown-section {
+      margin: 0 !important;
+      padding: 2rem 3rem !important;
+    }
+  </style>
 </head>
 <body>
-  <div id="app">Sheesh...</div>
-  <script>
-    window.$docsify = {
-      name: 'MojoTutorials',
-      hideSidebar: true,
-      auto2top: true
-    }
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'MojoTutorials',
+      hideSidebar: true,
+      auto2top: true
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>
