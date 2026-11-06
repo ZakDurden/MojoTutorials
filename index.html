@@ -40,7 +40,38 @@
     window.$docsify = {
       name: 'MojoTutorials',
       hideSidebar: true,
-      auto2top: true
+      auto2top: true,
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+            const headings = document.querySelectorAll(
+              '.markdown-section h1[id], .markdown-section h2[id], .markdown-section h3[id], .markdown-section h4[id], .markdown-section h5[id], .markdown-section h6[id]'
+            );
+            headings.forEach(function (el) {
+              const lowerId = el.id.toLowerCase();
+              el.id = lowerId;
+              const anchor = el.querySelector('a.anchor');
+              if (anchor) {
+                anchor.setAttribute('data-id', lowerId);
+                anchor.setAttribute('href', '#/?id=' + encodeURIComponent(lowerId));
+              }
+            });
+            const links = document.querySelectorAll('.markdown-section a[href*="?id="]');
+            links.forEach(function (a) {
+              if (a.classList.contains('anchor')) return;
+              const href = a.getAttribute('href');
+              const parts = href.split('?id=');
+              if (parts.length === 2) {
+                let targetId = decodeURIComponent(parts[1]).toLowerCase();
+                if (/^\d/.test(targetId)) {
+                  targetId = '_' + targetId;
+                }
+                a.setAttribute('href', parts[0] + '?id=' + encodeURIComponent(targetId));
+              }
+            });
+          });
+        }
+      ]
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
