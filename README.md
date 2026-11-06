@@ -386,3 +386,5 @@ Angle плагин для LTW в Mojo. Полезен на кривых gles д�
 
 Поздравляю! Вы поставили сборку.
 > _[Вернуться к оглавлению](#оглавление)_
+
+<img src="https://komarev.com/ghpvc/?username=MojoTutorials-Views&color=3b82f6&style=flat-square" alt="Просмотры сайта" />
